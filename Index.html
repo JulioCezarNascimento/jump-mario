@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html lang="Pt-Br">
 <head>
+    <!--Meta Settings-->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Page Icon-->
     <link rel="shortcut icon" href="Img/icon.png" type="image/x-icon">
+    <!--Stylesheet Link-->
     <link rel="stylesheet" href="Css/Style.css">
+    <!--Title-->
     <title>Jump mario</title>
 </head>
 <body>
-    
+    <!--Game Audios-->
+  <audio src="Audio/jump_song.mp3" class="audiojump"></audio>
+  <audio src="Audio/game_over.mp3" class="gameover"></audio>
+  <!--Main Game Screen-->
+  <div class="game-board"> 
+    <img src="Img/clouds.png" class="clouds">
+    <img src="Img/mario.gif" class="mario">
+    <img src="Img/pipe.png" class="pipe">
+  </div>
+  <p id="text-start">Para jogar, pressione a tecla "Espaço"</p>
+  <!--JavaScript-->
+  <script src="Js/Script.js"></script>
 </body>
 </html>
